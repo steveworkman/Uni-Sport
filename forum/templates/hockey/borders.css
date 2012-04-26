@@ -1,0 +1,121 @@
+/* CSS Custom Borders */
+
+/*** Custom Borders ***/
+/* Technique from http://www.456bereastreet.com/archive/200506/customising_custom_corners_and_borders/ */
+
+.cbb {
+	margin: 0 5px 0 10px;
+	background: #fff;
+	padding: 0 0 5px 0;
+	line-height: 170%;
+}
+
+.cb {
+	float: left;
+	width: 100%;
+	margin: 0 0 0.5em 0;
+	line-height: 170%;
+}
+
+.bt {
+	background:url(./images/box.png) no-repeat 100% 0 !important;
+	background:url(./images/box.gif) no-repeat 100% 0;
+	margin: 0 -2px 0 18px;
+	height: 15px;
+}
+
+.bt div {
+	height: 15px;
+	width: 18px;
+	position:relative;
+	left: -18px;
+	background:url(./images/box.png) no-repeat 0 0 !important;
+	background:url(./images/box.gif) no-repeat 0 0;
+}
+
+.bb {
+	background:url(./images/box.png) no-repeat 100% 100% !important;
+	background:url(./images/box.gif) no-repeat 100% 100%;
+	margin: 0 -2px 0 12px;
+	height: 14px;
+}
+
+.bb div {
+	height: 14px;
+	width: 12px;
+	position:relative;
+	left: -12px;
+	background:url(./images/box.png) no-repeat 0 100% !important;
+	background:url(./images/box.gif) no-repeat 0 100%;
+}
+
+.i1 {
+	padding: 0 0 0 12px;
+	background:url(./images/borders.png) repeat-y 0 0 !important;
+	background:url(./images/borders.gif) repeat-y 0 0;
+}
+
+.i2 {
+	padding: 0 12px 0 0;
+	background:url(./images/borders.png) repeat-y 100% 0 !important;
+	background:url(./images/borders.gif) repeat-y 100% 0;
+}
+
+.i3 {
+	background:#eee;
+	width:100%;
+}
+
+/*** END Custom Borders ***/
+/*** These Custom borders are for the header ***/
+.cbb2 {
+	margin: 0 5px 0 10px;
+	background: #fff;
+	padding:0;
+	line-height: 170%;
+}
+
+.cb2 {
+	float: left;
+	width: 100%;
+	margin:0;
+	line-height: 170%;
+}
+
+.bb2 {
+	background:url(./images/box2.png) no-repeat 100% 100% !important;
+	background:url(./images/box2.gif) no-repeat 100% 100%;
+	margin: 0 0 0 18px;
+	height: 12px;
+}
+
+.bb2 div {
+	height: 12px;
+	width: 18px;
+	position:relative;
+	float:left;
+	padding-top:1px;
+	left: -18px;
+	background:url(./images/box2.png) no-repeat 0 100% !important;
+	background:url(./images/box2.gif) no-repeat 0 100%;
+}
+
+.i12 {
+	margin-left:2px;
+	padding: 0 0 0 10px;
+	background:url(./images/borders2.png) repeat-y 0 0 !important;
+	background:url(./images/borders2.gif) repeat-y 0 0;
+}
+
+.i22 {
+	padding: 0 10px 0 0;
+	background:url(./images/borders2.png) repeat-y 100% 0 !important;
+	background:url(./images/borders2.gif) repeat-y 100% 0;
+}
+
+.i32 {
+	background: url(./images/header_bg.png) repeat-x top;
+	padding:0 5px;
+}
+
+/*** END Header Custom Borders ***/

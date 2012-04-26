@@ -1,0 +1,15 @@
+/*** Uni-Sport.org IE Forms CSS 		***/
+/*** Author: Steven Workman 			***/
+/*** Created on: 17th July 2007 		***/
+/*** Last updated: 17th July 2007 		***/
+
+/* This contains styles for forms in IE	  */
+
+legend {  
+position: relative;  
+left: -7px;  
+top: -0.75em; 
+} 
+fieldset ol {  
+padding-top: 0.25em; 
+}

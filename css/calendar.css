@@ -1,0 +1,51 @@
+/*** Uni-Sport.org Calendar CSS 	***/
+/*** Author: Steven Workman 		***/
+/*** Created on: 3rd July 2007 		***/
+/*** Last updated: 13th July 2007 	***/
+
+/* This contains styles for the calendar div */
+
+/************************************************/
+/* Calendar Styles								*/
+/************************************************/
+
+#calendar {
+	position:relative;
+	margin: 0 auto;
+	text-align:center;
+}
+
+#calendar table {
+	border:1px solid #fff;
+	padding: 0;
+	margin:20px;
+	font-size:95%;
+}
+
+#calendar th {
+	background: #565;
+	color: #fff;
+	margin: 3px;
+	padding: 2px 5px;
+}
+
+#calendar td {
+	background: #eee;
+	color: #000;
+	font-size: 75%;
+	padding: 2px;
+    margin:0;
+	height:60px;
+	text-align:left;
+	vertical-align:baseline;
+	border:1px solid #fff;
+}
+
+#calendar ul{
+	padding: 0px 5px 0px 0px;
+	list-style:none;
+}
+
+#calendar td.notInMonth{
+	background: #999;
+}

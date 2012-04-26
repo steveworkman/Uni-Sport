@@ -1,0 +1,102 @@
+/*** Uni-Sport.org Basics CSS 		***/
+/*** Author: Steven Workman 		***/
+/*** Created on: 3rd July 2007 		***/
+/*** Last updated: 13th July 2007 	***/
+
+/* This contains the top level elements styles */
+
+* {margin:0;padding:0;}
+
+body {
+	font-family:Verdana, Helvetica, sans-serif;
+	font-size:90%;
+	background:#eee url(../img/body_bg.png) repeat-x top fixed;
+}
+
+a {
+	text-decoration:none;
+	color:#06C;
+	border:0;
+}
+a img {border:0;}
+a:hover {text-decoration:underline;}
+a:visited {color:#06C;}
+.current {font-weight:bold;text-decoration:underline;}
+.clear {clear:both;}
+.left {float:left; padding-left:10px;}
+.right {float:right; padding-right:10px;}
+.hr {border:1px solid #aaa;}
+.sidebarContent .hr {border:1px solid #6A8EC2}
+.nostyle {padding:0; margin:0; }
+.nodisplay {display:none;}
+.green{color:#565;}
+.brightGreen{color:#0C3;}
+.red{color:#D96868;}
+.blue{color:#06c;}
+.highlight{background-color:yellow; color:#000;}
+.bg1{background-color:#eee;}
+.bg2{background-color:#d0d0d0;}
+.error{
+	color:#F30;
+	position:relative;
+	margin:auto 0;
+	text-align:center;
+}
+.succ{
+	color:#565;
+	position:relative;
+	margin:auto 0;
+	text-align:center;
+}
+.center{
+	position:relative;
+	margin:0 auto;
+	text-align:center;
+}
+
+h1 {
+	padding-bottom: 5px;
+	color:#333;
+	margin:5px 0 0 10px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+	
+h2 {
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:130%;
+	padding:5px;
+}
+
+h3 {
+	padding: 5px 5px 0 5px;
+}
+
+input {padding:2px 5px 2px 5px;}
+/* This is for modern browsers only. Gives depth to the input box */
+input[type="text"], input[type="password"], textarea {
+	border:0;
+	border-top: 2px solid #999;
+	border-left: 2px solid #999;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+.tbl {border: 1px solid #ccc;}
+.tbl td{border: 1px solid #ccc;}
+label.overlabel {
+	color:#5f6e7c;
+}
+label.overlabel-apply {
+	position:absolute;
+	text-indent:3px;
+	top:2px;
+	left:5px;
+	z-index:1;
+	color:#5f6e7c;
+}
+.label {
+	position:relative;
+	float:left;
+	margin-right:3px;
+	font-size:90%;
+}

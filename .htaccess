@@ -1,0 +1,8 @@
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+ErrorDocument 401 /usev4/error.php?type=401
+ErrorDocument 403 /usev4/error.php?type=403
+ErrorDocument 404 /usev4/error.php?type=404
+ErrorDocument 500 /usev4/error.php?type=500
